@@ -1,5 +1,6 @@
 import io
 import os
+os.system("apt-get update && apt-get install -y libgl1-mesa-glx")
 import pandas as pd
 import streamlit as st
 from PIL import Image
@@ -13,7 +14,7 @@ import tempfile
 
 
 # Install the required library
-os.system("apt-get update && apt-get install -y libgl1-mesa-glx")
+
 # Initialize session state if not already set
 if 'uploaded_file' not in st.session_state:
     st.session_state.uploaded_file = None
