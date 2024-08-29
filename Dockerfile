@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 8505
 
 # Start ngrok and run the Streamlit app
-CMD ["python3", "run_ngrok.py"]
+CMD ["streamlit", "run", "app.py"]
