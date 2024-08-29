@@ -1,0 +1,17 @@
+streamlit
+opencv-python-headless
+numpy
+pandas
+tornado
+paddleocr
+# layoutparser
+tensorflow==2.16.2
+protobuf==3.20.3
+paddleocr
+paddlepaddle
+
+https://paddleocr.bj.bcebos.com/whl/layoutparser-0.0.0-py3-none-any.whl
+pdf2image
+openpyxl
+
+
