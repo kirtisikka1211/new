@@ -2,9 +2,8 @@
 FROM python:3.12-slim
 
 # Install system dependencies
-RUN apt-get update && apt-get install -y \
-    libgl1-mesa-glx \
-    libgthread-2.0-0
+RUN apt-get update
+RUN apt-get install -y libgl1-mesa-glx libgthread-2.0-0
 
 # Set the working directory
 WORKDIR /app
