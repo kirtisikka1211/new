@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port that Streamlit will run on
-EXPOSE 8505
+EXPOSE 8000
 
 # Start ngrok and run the Streamlit app
 CMD ["streamlit", "run", "app.py"]
