@@ -11,6 +11,9 @@ from paddleocr import PaddleOCR
 from pdf2image import convert_from_path
 import tempfile
 
+
+# Install the required library
+os.system("apt-get update && apt-get install -y libgl1-mesa-glx")
 # Initialize session state if not already set
 if 'uploaded_file' not in st.session_state:
     st.session_state.uploaded_file = None
