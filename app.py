@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import streamlit as st
 from PIL import Image
-# import cv2
+import cv2
 import numpy as np
 import tensorflow as tf
 import layoutparser as lp
