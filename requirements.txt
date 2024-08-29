@@ -1,4 +1,5 @@
 streamlit
+pyngrok
 opencv-python-headless
 numpy
 pandas
